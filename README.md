@@ -6,5 +6,5 @@ burpsuite插件：主动和被动进行JS扫描并分析其中的可利用点
 ## 后续功能
 + 排除各种JS库，只分析自定义JS
 + 具体可利用点的分析
-![1.png](https://i.loli.net/2020/11/06/RM8jVsQmy1DZJWN.png)
-![2.png](https://i.loli.net/2020/11/06/mxkrsZ5iv6FjW89.png)
+![1.png](https://ftp.bmp.ovh/imgs/2020/11/ef3b32186cf9cd1a.png)
+![2.png](https://ftp.bmp.ovh/imgs/2020/11/a639d8257ad00798.png)
