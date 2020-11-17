@@ -21,7 +21,7 @@ Burpsuite plug-in: active and passive JS scanning and analysis of available poin
 + Consider automatically adding the scanned custom JS file to the dictionary to improve the dictionary step by step
 + Consider the collection of various algorithms, semantic analysis, generation of POC and other functions (long-term consideration)
 ****
-![1.png](http://ftp.bmp.ovh/imgs/2020/11/ef3b32186cf9cd1a.png)
+![1.png](https://xuyiqing-1257927651.cos.ap-beijing.myqcloud.com/burpsuite/js-1.jpg)
 ****
-![2.png](http://ftp.bmp.ovh/imgs/2020/11/a639d8257ad00798.png)
+![2.png](https://xuyiqing-1257927651.cos.ap-beijing.myqcloud.com/burpsuite/js-2.jpg)
 ****
