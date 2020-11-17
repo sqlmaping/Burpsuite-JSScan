@@ -8,10 +8,18 @@ burpsuite插件：主动和被动进行JS扫描并分析其中的可利用点
 + 排除各种JS库，只分析自定义JS，有效发现目标
 + 具体可利用点的分析，例如ajax语法等
 + 考虑将扫描到的自定义JS文件自动添加到自带字典中，逐步完善字典
-+ 考虑集合各种算法，对语义进行分析，生成POC等功能（长远考虑）
-## 下一个Burpsuite插件：Burpsuite-UAScan（Unauthorized access）
-+ 主要用于自动化测试未授权访问
-+ 通过对比有无Cookie字段的返回长度得出结论
+****
+# Burpsuite Jsscan Plugin
+Burpsuite plug-in: active and passive JS scanning and analysis of available points
++ At present, active scanning and passive scanning are realized
++ The active scanning module uses a collection dictionary
++ The passive scan module will analyze every request passing through burpsuite, and if it is JS file, it will be saved
+****
+## Follow Up Functions
++ Exclude all kinds of JS libraries, only analyze custom JS, effectively discover the target
++ The analysis of specific points can be used, such as Ajax syntax
++ Consider automatically adding the scanned custom JS file to the dictionary to improve the dictionary step by step
++ Consider the collection of various algorithms, semantic analysis, generation of POC and other functions (long-term consideration)
 ****
 ![1.png](http://ftp.bmp.ovh/imgs/2020/11/ef3b32186cf9cd1a.png)
 ****
