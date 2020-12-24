@@ -29,14 +29,13 @@ public class HttpListener implements IHttpListener {
             IRequestInfo requestInfo = helpers.analyzeRequest(httpService, messageInfo.getRequest());
             if (Objects.equals(requestInfo.getMethod(), "GET")) {
                 String url = requestInfo.getUrl().toString();
-                if (url.endsWith("js")) {
-                    PrintUtil.print(callbacks, "##############"+url);
+                    if (url.endsWith("js")) {
+//                    PrintUtil.print(callbacks, "##############"+url);
                     TestUI.setAutoText(url);
                 }
             }
 //            PrintUtil.print(callbacks, helpers.bytesToString(messageInfo.getRequest()));
         } else {
-            //POST
 //            IResponseInfo responseInfo = helpers.analyzeResponse(messageInfo.getResponse());
 //            PrintUtil.print(callbacks, helpers.bytesToString(messageInfo.getResponse()));
         }

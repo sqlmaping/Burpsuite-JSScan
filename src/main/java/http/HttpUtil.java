@@ -14,6 +14,7 @@ public class HttpUtil {
         try {
             URL u = new URL(url);
             conn = (HttpURLConnection) u.openConnection();
+            conn.setRequestMethod("GET");
             conn.setReadTimeout(60000);
             conn.setConnectTimeout(60000);
             conn.setRequestProperty("Accept", "*/*");
